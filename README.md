@@ -3,17 +3,18 @@ ChatBot no Telegram para Classificação de Imagens de Animais do Pantanal para 
 
 Para instanciar este projeto em Python com Pytorch é necessário criar o Bot no BotFather e substituir o conteúdo do arquivo TOKEN.txt com o TOKEN fornecido pelo BotFather.
 
-Depois basta instalar o Python, por exemplo utilizando Anaconda. Crie um ambiente conda, por exemplo "classifier_chatbot" com o comando:
+Depois basta instalar o Python, por exemplo utilizando [Anaconda](https://docs.anaconda.com/anaconda/install/). Crie um ambiente conda, por exemplo "classifier_chatbot" com o comando:
 
 ```console
 conda create --name classifier_chatbot
 ```
 
-Depois acesse o ambiente e instale as seguintes dependências com o comando:
+Depois ative este ambiente e instale as seguintes dependências com o comando:
 
 ```console
 conda activate classifier_chatbot
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
+pip install python-telegram-bot
 ```
 
 Caso tenha Placa de vídeo da NVidia e queira rodar o código com suporte à GPU, você precisará do CUDA, portanto terá que usar os seguintes comando:
