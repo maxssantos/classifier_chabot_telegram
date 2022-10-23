@@ -34,11 +34,11 @@ python chatbot.py
 Depois abra o app Telegram no seu celular (ou em um browser) e acesse o contato referente ao bot que você criou no BotFather. Os seguintes comandos podem ser enviados ao bot:
 
 
-<b>/start<b> - Inicia/Reinicia o Classificador
+<b>/start</b> - Inicia/Reinicia o Classificador
   
-<b>/help<b> - Exibe essa mensagem de ajuda
+<b>/help</b> - Exibe essa mensagem de ajuda
   
-<b>/classes<b> - Exibe a lista de classes do classificador, no caso os animais do Pantanal.
+<b>/classes</b> - Exibe a lista de classes do classificador, no caso os animais do Pantanal.
   
   Além destes comandos também pode ser enviado a qualquer momento uma IMAGEM que o bot irá classificar esta imagem em uma das seguintes classes:
   
