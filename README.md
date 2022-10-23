@@ -22,6 +22,7 @@ Caso tenha Placa de vídeo da NVidia e queira rodar o código com suporte à GPU
 ```console
 conda activate classifier_chatbot
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+pip install python-telegram-bot
 ```
 
 É necessário também incluir o arquivo PTH contendo o seu modelo de rede (obrigatóriamente deve ser uma EfficientNet) que será responsável pela classificação de imagens. Neste projeto foi utilizado o modelo de rede EfficientNet com AdamW do torchvision que foi produzido neste experimento [aqui do Google Colab](https://https://colab.research.google.com/drive/1jxoNRSPgWjc-0eDqA3PQFMWsmwVdsn4-)
