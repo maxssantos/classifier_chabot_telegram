@@ -35,8 +35,8 @@ Depois abra o app Telegram no seu celular (ou em um browser) e acesse o contato 
 
 ```console
 /start - Inicia/Reinicia o Classificador
-	/help - Exibe essa mensagem de ajuda
-	/classes - Exibe a lista de classes do classificador, no caso os animais do Pantanal.
+/help - Exibe essa mensagem de ajuda
+/classes - Exibe a lista de classes do classificador, no caso os animais do Pantanal.
   ```
   
   Além destes comandos também pode ser enviado a qualquer momento uma IMAGEM que o bot irá classificar esta imagem em uma das seguintes classes:
